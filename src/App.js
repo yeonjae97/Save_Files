@@ -1,7 +1,9 @@
+import Counter from './Counter';
 import MyComponent from './MyComponent';
+import Say from './Say';
 
 const App = () => {
-  return <MyComponent name="가나다라">Hello Really React</MyComponent>;
+  return <Say />;
 };
 
 export default App;
